@@ -20,7 +20,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 16000))
 
 # Chat id of a group for logging bot's activities
 LOGGER_ID = int(getenv("LOGGER_ID"))
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001443337704"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002177743764"))
 
 # Get this value from  on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID"))
@@ -33,15 +33,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/THE-VIP-BOY-OP/VIP-MUSIC",
+    "https://github.com/ArdNeriw/ARD-ASTHETIC-MUSIC",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/VIP_CREATORS")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/TG_FRIENDSS")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Ard_feels")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/BuDdYieZzz")
 
 # Maximum Limit Allowed for users to save playlists on bot's server
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "100"))
@@ -94,7 +94,7 @@ CLEANMODE_DELETE_MINS = int(
     getenv("CLEANMODE_MINS", "5")
 )  # Remember to give value in Seconds
 
-# Get your pyrogram v2 session from @VIP_STRING_ROBOT on Telegram
+# Get your pyrogram v2 session from Any String Gen on Telegram
 STRING1 = getenv("STRING_SESSION", None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
@@ -102,12 +102,12 @@ STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
 
 
-#    __      _______ _____    ___  __ _    _  _____ _____ _____   _____
-#    \ \    / /_   _|  __ \   |  \/  | |  | |/ ____|_   _/ ____|  |  _ \ / __ \__   __|
-#     \ \  / /  | | | |__) |  | \  / | |  | | (___   | || |       | |_) | |  | | | |
-#      \ \/ /   | | |  ___/   | |\/| | |  | |\___ \  | || |       |  _ <| |  | | | |
-#       \  /   _| |_| |       | |  | | |__| |____) |_| || |____   | |_) | |__| | | |
-#        \/   |_____|_|       |_|  |_|\____/|_____/|_____\_____|  |____/ \____/  |_|
+#            /\          
+#         / /  \ \       
+#        / /    \ \      
+#       / _______\ \     
+#      / / ------ \ \    
+#     /_/          \_\   
 
 
 BANNED_USERS = filters.user()
@@ -123,21 +123,21 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/46c6f1db04317643039a1.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/46c6f1db04317643039a1.jpg"
 )
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
-STATS_IMG_URL = "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
-TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
-TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
-STREAM_IMG_URL = "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
-SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
-YOUTUBE_IMG_URL = "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/46c6f1db04317643039a1.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/46c6f1db04317643039a1.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/46c6f1db04317643039a1.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/46c6f1db04317643039a1.jpg"
+STREAM_IMG_URL = "https://telegra.ph/file/46c6f1db04317643039a1.jpg"
+SOUNCLOUD_IMG_URL = "https://telegra.ph/file/46c6f1db04317643039a1.jpg"
+YOUTUBE_IMG_URL = "https://telegra.ph/file/46c6f1db04317643039a1.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/46c6f1db04317643039a1.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/46c6f1db04317643039a1.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/46c6f1db04317643039a1.jpg"
 
 
 def time_to_seconds(time):
