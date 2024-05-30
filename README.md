@@ -4,7 +4,7 @@
 <h2 align="center">
     ─「 𝗔𝗥𝗗-𝗔𝗦𝗧𝗛𝗘𝗧𝗜𝗖-𝗠𝗨𝗦𝗜𝗖 」─
 
-<r align="center">
+<a align="center">
 <img src="https://readme-typing-svg.herokuapp.com?color=FF0000&width=420&lines=𝗔𝗥𝗗-𝗔𝗦𝗧𝗛𝗘𝗧𝗜𝗖-𝗠𝗨𝗦𝗜𝗖">
 
 <p align="center">
