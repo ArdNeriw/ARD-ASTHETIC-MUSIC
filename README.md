@@ -2,10 +2,10 @@
 
 
 <h2 align="center">
-    ─「 𝗔𝗥𝗗_𝗔𝗦𝗧𝗛𝗘𝗧𝗜𝗖_𝗠𝗨𝗦𝗜𝗖 」─
+    ─「 𝗔𝗥𝗗-𝗔𝗦𝗧𝗛𝗘𝗧𝗜𝗖-𝗠𝗨𝗦𝗜𝗖 」─
 
 </h2>
-<img src="https://readme-typing-svg.herokuapp.com?color=FF0000&width=420&lines=𝗔𝗥𝗗_+𝗔𝗦𝗧𝗛𝗘𝗧𝗜𝗖_+𝗠𝗨𝗦𝗜𝗖">
+<img src="https://readme-typing-svg.herokuapp.com?color=FF0000&width=420&lines=𝗔𝗥𝗗-+𝗔𝗦𝗧𝗛𝗘𝗧𝗜𝗖-+𝗠𝗨𝗦𝗜𝗖">
 
 <p align="center">
   <img src="https://telegra.ph/file/c0551793d1de230afd132.jpg">
