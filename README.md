@@ -27,7 +27,7 @@
 
 ![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ArdNeriw&repo=ARD-ASTHETIC-MUSIC&theme=flag-india)
 
-[![GIF](https://github.com/THE-VIP-BOY-OP/VIP-MUSIC/blob/main/THE-VIP-BOY-OP.gif)](https://github.com/THE-VIP-BOY-OP)
+[![GIF](https://github.com/ArdNeriw/ARD-ASTHETIC-MUSIC/blob/main/ArdNeriw.gif)](https://github.com/ArdNeriw)
    [![VIP BOY](https://github-stats-alpha.vercel.app/api?username=THE-VIP-BOY-OP "THE_VIP_BOY")](https://github-stats-alpha.vercel.app/api?username=THE-VIP-BOY-OP "THE_VIP_BOY")
 
 
