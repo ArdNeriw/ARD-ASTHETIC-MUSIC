@@ -25,20 +25,20 @@ async def ping_clone(client: Client, message: Message):
     uptime = get_readable_time((upt))
 
     await hmm.edit_text(
-        f"""➻ ᴩᴏɴɢ : `{resp}ᴍs`
+        f"""❥︎ ᴩᴏɴɢ : `{resp}ᴍs`
 
 <b><u>{i.mention} sʏsᴛᴇᴍ sᴛᴀᴛs :</u></b>
 
-๏ **ᴜᴩᴛɪᴍᴇ :** {uptime}
-๏ **ʀᴀᴍ :** {mem}
-๏ **ᴄᴩᴜ :** {cpu}
-๏ **ᴅɪsᴋ :** {disk}""",
+❥︎ **ᴜᴩᴛɪᴍᴇ :** {uptime}
+❥︎ **ʀᴀᴍ :** {mem}
+❥︎ **ᴄᴩᴜ :** {cpu}
+❥︎ **ᴅɪsᴋ :** {disk}""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("❄ sᴜᴘᴘᴏʀᴛ ❄", url=SUPPORT_CHAT),
+                    InlineKeyboardButton("𓏲𝄢 sᴜᴘᴘᴏʀᴛ 𓏲𝄢", url=SUPPORT_CHAT),
                     InlineKeyboardButton(
-                        "✨ 𝙰𝙳𝙳 𝙼𝙴✨",
+                        "𓏲𝄢 ᴀᴅᴅ ᴍᴇ 𓏲𝄢",
                         url=f"https://t.me/{i.username}?startgroup=true",
                     ),
                 ],
