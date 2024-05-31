@@ -11,6 +11,6 @@ async def start(client: Client, message: Message):
     await message.reply_text(
         f"✫ <b><u>ᴀᴄᴛɪᴠᴇ ᴄʜᴀᴛs ɪɴғᴏ</u></b> :\n\nᴠᴏɪᴄᴇ : {ac_audio}\nᴠɪᴅᴇᴏ  : {ac_video}",
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("✯ ᴄʟᴏsᴇ ✯", callback_data=f"close")]]
+            [[InlineKeyboardButton("𓏲𝄢 ᴄʟᴏsᴇ 𓏲𝄢", callback_data=f"close")]]
         ),
     )
