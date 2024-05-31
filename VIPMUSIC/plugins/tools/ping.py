@@ -96,7 +96,7 @@ async def ping_com(client, message: Message, _):
     resp = (datetime.now() - start).microseconds / 1000
     text = _["ping_2"].format(resp, app.name, UP, RAM, CPU, DISK, pytgping)
     carbon = await make_carbon(text)
-    captions = "**ㅤ  🏓 ᴘɪɴɢ...ᴘᴏɴɢ...ᴘɪɴɢ 🛜 \nㅤ 🎴  ᴅɪɴɢ...ᴅᴏɴɢ...ᴅɪɴɢ 📊**"
+    captions = "**🏓 ᴘɪɴɢ...ᴘᴏɴɢ...ᴘɪɴɢ 🛜 \n🎴  ᴅɪɴɢ...ᴅᴏɴɢ...ᴅɪɴɢ 📊**"
     await message.reply_photo(
         (carbon),
         caption=captions,
