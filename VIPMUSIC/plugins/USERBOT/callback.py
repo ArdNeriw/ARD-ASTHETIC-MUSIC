@@ -160,7 +160,7 @@ async def unban_assistant(_, callback: CallbackQuery):
     try:
         await client.unban_chat_member(chat_id, userbot.id)
         await callback.answer(
-            "𝗠𝘆 𝗔𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁 𝗜𝗱 𝗨𝗻𝗯𝗮𝗻𝗻𝗲𝗱 𝗦𝘂𝗰𝗰𝗲𝘀𝘀𝗳𝘂𝗹𝗹𝘆🥳\n\n➻ 𝗡𝗼𝘄 𝗬𝗼𝘂 𝗖𝗮𝗻 𝗣𝗹𝗮𝘆 𝗦𝗼𝗻𝗴𝘀🔉\n\n𝗧𝗵𝗮𝗻𝗸 𝗬𝗼𝘂💝",
+            "𝗠𝘆 𝗔𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁 𝗜𝗱 𝗨𝗻𝗯𝗮𝗻𝗻𝗲𝗱 𝗦𝘂𝗰𝗰𝗲𝘀𝘀𝗳𝘂𝗹𝗹𝘆🍡🐼\n\n❥︎ 𝗡𝗼𝘄 𝗬𝗼𝘂 𝗖𝗮𝗻 𝗣𝗹𝗮𝘆 𝗦𝗼𝗻𝗴𝘀🎵\n\n𝗧𝗵𝗮𝗻𝗸 𝗬𝗼𝘂🧋",
             show_alert=True,
         )
     except Exception as e:
@@ -358,7 +358,7 @@ async def del_back_playlist(client, CallbackQuery, _):
     elif command == "Skip" or command == "Replay":
         check = db.get(chat_id)
         if command == "Skip":
-            txt = f"➻ sᴛʀᴇᴀᴍ sᴋɪᴩᴩᴇᴅ 🎄\n│ \n└ʙʏ : {mention} 🥀"
+            txt = f"❥︎ sᴛʀᴇᴀᴍ sᴋɪᴩᴩᴇᴅ 🧋\n│ \n└ʙʏ : {mention} 🍃"
             popped = None
             try:
                 popped = check.pop(0)
@@ -366,7 +366,7 @@ async def del_back_playlist(client, CallbackQuery, _):
                     await auto_clean(popped)
                 if not check:
                     await CallbackQuery.edit_message_text(
-                        f"➻ sᴛʀᴇᴀᴍ sᴋɪᴩᴩᴇᴅ 🎄\n│ \n└ʙʏ : {mention} 🥀"
+                        f"❥︎ sᴛʀᴇᴀᴍ sᴋɪᴩᴩᴇᴅ 🧋\n│ \n└ʙʏ : {mention} 🍃"
                     )
                     await CallbackQuery.message.reply_text(
                         text=_["admin_6"].format(
@@ -381,7 +381,7 @@ async def del_back_playlist(client, CallbackQuery, _):
             except:
                 try:
                     await CallbackQuery.edit_message_text(
-                        f"➻ sᴛʀᴇᴀᴍ sᴋɪᴩᴩᴇᴅ 🎄\n│ \n└ʙʏ : {mention} 🥀"
+                        f"❥︎ sᴛʀᴇᴀᴍ sᴋɪᴩᴩᴇᴅ 🧋\n│ \n└ʙʏ : {mention} 🍃"
                     )
                     await CallbackQuery.message.reply_text(
                         text=_["admin_6"].format(
@@ -393,7 +393,7 @@ async def del_back_playlist(client, CallbackQuery, _):
                 except:
                     return
         else:
-            txt = f"➻ sᴛʀᴇᴀᴍ ʀᴇ-ᴘʟᴀʏᴇᴅ 🎄\n│ \n└ʙʏ : {mention} 🥀"
+            txt = f"❥︎ sᴛʀᴇᴀᴍ ʀᴇ-ᴘʟᴀʏᴇᴅ 🧋\n│ \n└ʙʏ : {mention} 🍃"
         await CallbackQuery.answer()
         queued = check[0]["file"]
         title = (check[0]["title"]).title()
