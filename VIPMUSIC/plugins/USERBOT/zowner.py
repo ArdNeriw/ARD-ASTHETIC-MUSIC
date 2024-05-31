@@ -16,7 +16,7 @@ async def repo(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "💥 REPO 🧃", url=f"https://github.com/ArdNeriw/ARD-ASTHE-MUSIC"
+                        "💥 REPO 💥", url=f"https://github.com/ArdNeriw/ARD-ASTHE-MUSIC"
                     )
                 ]
             ]
