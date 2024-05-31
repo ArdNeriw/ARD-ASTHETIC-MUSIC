@@ -34,7 +34,7 @@ async def download_video(client, CallbackQuery):
     if current_time - last_Query_time < SPAM_WINDOW_SECONDS:
         # If the limit is exceeded, send a response and return
         await CallbackQuery.answer(
-            "➻ ʏᴏᴜ ʜᴀᴠᴇ ʜᴀᴠᴇ ᴀʟʀᴇᴀᴅʏ ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ ʏᴏᴜʀ ᴠɪᴅᴇᴏ (ᴄʜᴇᴄᴋ ᴍʏ ᴅᴍ/ᴘᴍ).\n\n➥ ɴᴇxᴛ sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅ ᴀғᴛᴇʀ 30 sᴇᴄᴏɴᴅs.",
+            "❥︎ ʏᴏᴜ ʜᴀᴠᴇ ʜᴀᴠᴇ ᴀʟʀᴇᴀᴅʏ ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ ʏᴏᴜʀ ᴠɪᴅᴇᴏ (ᴄʜᴇᴄᴋ ᴍʏ ᴅᴍ/ᴘᴍ).\n\n➥ ɴᴇxᴛ sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅ ᴀғᴛᴇʀ 30 sᴇᴄᴏɴᴅs.",
             show_alert=True,
         )
         return
@@ -101,7 +101,7 @@ async def download_video(client, CallbackQuery):
         return
 
     file_stark = f"{ytdl_data['id']}.mp4"
-    capy = f"❄ **ᴛɪᴛʟᴇ :** [{thum}]({mo})\n\n💫 **ᴄʜᴀɴɴᴇʟ :** {thums}\n\n🥀 **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ :** {chutiya}"
+    capy = f"🐼 **ᴛɪᴛʟᴇ :** [{thum}]({mo})\n\n🧋 **ᴄʜᴀɴɴᴇʟ :** {thums}\n\n🍃 **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ :** {chutiya}"
     try:
         await client.send_video(
             CallbackQuery.from_user.id,
@@ -119,7 +119,7 @@ async def download_video(client, CallbackQuery):
         )
         await client.send_message(
             CallbackQuery.message.chat.id,
-            f"**ʜᴇʏ** {chutiya}\n\n**✅ sᴜᴄᴄᴇssғᴜʟʟʏ ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ.**\n**➻ ᴀᴜᴅɪᴏ sᴇɴᴛ ɪɴ ʏᴏᴜʀ ᴘᴍ/ᴅᴍ.**\n**➥ ᴄʜᴇᴄᴋ ʜᴇʀᴇ » [ʙᴏᴛ ᴘᴍ/ᴅᴍ](tg://openmessage?user_id={cme.id})**🤗",
+            f"**ʜᴇʏ** {chutiya}\n\n**✅ sᴜᴄᴄᴇssғᴜʟʟʏ ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ.**\n**❥︎ ᴀᴜᴅɪᴏ sᴇɴᴛ ɪɴ ʏᴏᴜʀ ᴘᴍ/ᴅᴍ.**\n**❥︎ ᴄʜᴇᴄᴋ ʜᴇʀᴇ » [ʙᴏᴛ ᴘᴍ/ᴅᴍ](tg://openmessage?user_id={cme.id})**🐼",
         )
         await pablo.delete()
         for files in (sedlyf, file_stark):
@@ -130,12 +130,12 @@ async def download_video(client, CallbackQuery):
         await pablo.delete()
         return await client.send_message(
             CallbackQuery.message.chat.id,
-            f"**ʜᴇʏ {chutiya} ᴘʟᴇᴀsᴇ ᴜɴʙʟᴏᴄᴋ ᴍᴇ ғᴏʀ ᴅᴏᴡɴʟᴏᴀᴅ ʏᴏᴜʀ ᴠɪᴅᴇᴏ ʙʏ ᴄʟɪᴄᴋ ʜᴇʀᴇ 👇👇**",
+            f"**ʜᴇʏ {chutiya} ᴘʟᴇᴀsᴇ ᴜɴʙʟᴏᴄᴋ ᴍᴇ ғᴏʀ ᴅᴏᴡɴʟᴏᴀᴅ ʏᴏᴜʀ ᴠɪᴅᴇᴏ ʙʏ ᴄʟɪᴄᴋ ʜᴇʀᴇ 🍃🍃**",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            f"👉ᴜɴʙʟᴏᴄᴋ ᴍᴇ🤨",
+                            f"🍡 ᴜɴʙʟᴏᴄᴋ ᴍᴇ 🍡",
                             url=f"https://t.me/{cme.username}?start=info_{videoid}",
                         )
                     ]
@@ -163,7 +163,7 @@ async def download_audio(client, CallbackQuery):
     if current_time - last_Query_time < SPAM_AUDIO_WINDOW_SECONDS:
         # If the limit is exceeded, send a response and return
         await CallbackQuery.answer(
-            "➻ ʏᴏᴜ ʜᴀᴠᴇ ʜᴀᴠᴇ ᴀʟʀᴇᴀᴅʏ ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ ʏᴏᴜʀ ᴀᴜᴅɪᴏ (ᴄʜᴇᴄᴋ ᴍʏ ᴅᴍ/ᴘᴍ).\n\n➥ ɴᴇxᴛ sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅ ᴀғᴛᴇʀ 30 sᴇᴄᴏɴᴅs.",
+            "❥︎ ʏᴏᴜ ʜᴀᴠᴇ ʜᴀᴠᴇ ᴀʟʀᴇᴀᴅʏ ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ ʏᴏᴜʀ ᴀᴜᴅɪᴏ (ᴄʜᴇᴄᴋ ᴍʏ ᴅᴍ/ᴘᴍ).\n\n❥︎ ɴᴇxᴛ sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅ ᴀғᴛᴇʀ 30 sᴇᴄᴏɴᴅs.",
             show_alert=True,
         )
         return
@@ -229,7 +229,7 @@ async def download_audio(client, CallbackQuery):
         return
 
     file_stark = f"{ytdl_data['id']}.mp3"  # Adjusted file extension
-    capy = f"❄ **ᴛɪᴛʟᴇ :** [{thum}]({mo})\n\n💫 **ᴄʜᴀɴɴᴇʟ :** {thums}\n\n🥀 **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ :** {chutiya}\n\n⏳ **ᴅᴜʀᴀᴛɪᴏɴ :** {int(ytdl_data['duration']) // 60}:{int(ytdl_data['duration']) % 60}"
+    capy = f"🐼 **ᴛɪᴛʟᴇ :** [{thum}]({mo})\n\n🧋 **ᴄʜᴀɴɴᴇʟ :** {thums}\n\n🍃 **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ :** {chutiya}\n\n🎵 **ᴅᴜʀᴀᴛɪᴏɴ :** {int(ytdl_data['duration']) // 60}:{int(ytdl_data['duration']) % 60}"
     try:
         await client.send_audio(
             CallbackQuery.from_user.id,
@@ -245,7 +245,7 @@ async def download_audio(client, CallbackQuery):
         )
         await client.send_message(
             CallbackQuery.message.chat.id,
-            f"ʜᴇʏ {chutiya}**\n\n✅ sᴜᴄᴄᴇssғᴜʟʟʏ ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ.**\n**➻ ᴀᴜᴅɪᴏ sᴇɴᴛ ɪɴ ʏᴏᴜʀ ᴘᴍ/ᴅᴍ.**\n**➥ ᴄʜᴇᴄᴋ ʜᴇʀᴇ » [ʙᴏᴛ ᴘᴍ/ᴅᴍ](tg://openmessage?user_id={cme.id})**🤗",
+            f"ʜᴇʏ {chutiya}**\n\n✅ sᴜᴄᴄᴇssғᴜʟʟʏ ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ.**\n**❥︎ ᴀᴜᴅɪᴏ sᴇɴᴛ ɪɴ ʏᴏᴜʀ ᴘᴍ/ᴅᴍ.**\n**❥︎ ᴄʜᴇᴄᴋ ʜᴇʀᴇ » [ʙᴏᴛ ᴘᴍ/ᴅᴍ](tg://openmessage?user_id={cme.id})**🍡",
         )
 
         await pablo.delete()
@@ -257,12 +257,12 @@ async def download_audio(client, CallbackQuery):
         await pablo.delete()
         return await client.send_message(
             CallbackQuery.message.chat.id,
-            f"**ʜᴇʏ {chutiya} ᴘʟᴇᴀsᴇ ᴜɴʙʟᴏᴄᴋ ᴍᴇ ғᴏʀ ᴅᴏᴡɴʟᴏᴀᴅ ʏᴏᴜʀ ᴀᴜᴅɪᴏ ʙʏ ᴄʟɪᴄᴋ ʜᴇʀᴇ 👇👇**",
+            f"**ʜᴇʏ {chutiya} ᴘʟᴇᴀsᴇ ᴜɴʙʟᴏᴄᴋ ᴍᴇ ғᴏʀ ᴅᴏᴡɴʟᴏᴀᴅ ʏᴏᴜʀ ᴀᴜᴅɪᴏ ʙʏ ᴄʟɪᴄᴋ ʜᴇʀᴇ 🍃🍃**",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            f"👉ᴜɴʙʟᴏᴄᴋ ᴍᴇ🤨",
+                            f"🍡 ᴜɴʙʟᴏᴄᴋ ᴍᴇ 🍡",
                             url=f"https://t.me/{cme.username}?start=info_{videoid}",
                         )
                     ]
