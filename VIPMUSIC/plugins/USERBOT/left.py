@@ -7,11 +7,11 @@ from pyrogram import Client, filters
 from pyrogram.types import ChatMemberUpdated, InlineKeyboardButton, InlineKeyboardMarkup
 
 random_photo = [
-    "https://telegra.ph/file/1949480f01355b4e87d26.jpg",
-    "https://telegra.ph/file/3ef2cc0ad2bc548bafb30.jpg",
-    "https://telegra.ph/file/a7d663cd2de689b811729.jpg",
-    "https://telegra.ph/file/6f19dc23847f5b005e922.jpg",
-    "https://telegra.ph/file/2973150dd62fd27a3a6ba.jpg",
+    "https://telegra.ph/file/9569c15ccd1c0ff100ad8.jpg",
+    "https://telegra.ph/file/ec80ce89c0fafa71af8de.jpg",
+    "https://telegra.ph/file/bfac88adf67be6d75311d.jpg",
+    "https://telegra.ph/file/bd54186d561da704c08bf.jpg",
+    "https://telegra.ph/file/f2318c8979590b3a79ce1.jpg",
 ]
 
 bg_path = "VIPMUSIC/assets/userinfo.png"
@@ -74,8 +74,8 @@ async def member_has_left(client: Client, member: ChatMemberUpdated):
         else:
             welcome_photo = random.choice(random_photo)
 
-        caption = f"**#New_Member_Left**\n\n**๏** {user.mention} **ʜᴀs ʟᴇғᴛ ᴛʜɪs ɢʀᴏᴜᴘ**\n**๏ sᴇᴇ ʏᴏᴜ sᴏᴏɴ ᴀɢᴀɪɴ..!**"
-        button_text = "๏ ᴠɪᴇᴡ ᴜsᴇʀ ๏"
+        caption = f"**#New_Member_Left**\n\n**৻ꪆ** {user.mention} **ʜᴀs ʟᴇғᴛ ᴛʜɪs ɢʀᴏᴜᴘ**\n**৻ꪆ sᴇᴇ ʏᴏᴜ sᴏᴏɴ ᴀɢᴀɪɴ..!**"
+        button_text = "৻ꪆ ᴠɪᴇᴡ ᴜsᴇʀ ৻ꪆ"
         deep_link = f"tg://openmessage?user_id={user.id}"
 
         message = await client.send_photo(
