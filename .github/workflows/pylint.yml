@@ -30,6 +30,6 @@ jobs:
             commit_message: "Pylint: Auto Fixes"
             commit_options: "--no-verify"
             repository: .
-            commit_user_name: THE-VIP-BOY-OP
-            commit_user_email: THE-VIP-BOY-OP@users.noreply.github.com
-            commit_author: THE-VIP-BOY-OP <THE-VIP-BOY-OP@users.noreply.github.com>
+            commit_user_name: ArdNeriw
+            commit_user_email: ArdNeriw@users.noreply.github.com
+            commit_author: ArdNeriw <ArdNeriw@users.noreply.github.com>
